@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Device-width, initial-scale=1.0">
+    <title>Student sign up page</title>
+    <link rel="stylesheet" href="ste.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student sign up page</h1>
+        <p class="subtitle">Planteras, Mark Angelo E.</p>
+
+        <div class="section">
+            <h2>Instructions</h2>
+            <p class="Instructions">
+                Please fill out all the required informtion below
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Objectives</h2>
+            <ol class="objectives">
+                <li>To create a basic sign up page on html</li>
+                <li>To demonstrate proper use of form element</li>
+                <li>To train html coding</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>Registration form</h2>
+
+            <form action="" method="post">
+                <label for="fullname">Full name</label>
+                <input type="text" id="fullname" placeholder="Enter your name" required>
+                <br>
+                <label for="email">Email address</label>
+                <input type="email" id="email" placeholder="@email.com" required>
+                <br>
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday" required>
+                <br>
+                <label>Gender</label>
+                <label>
+                    <input type="radio" name="gender" value="male">Male
+                </label>
+                
+                <label>
+                    <input type="radio" name="gender" value="female">female
+                </label>
+                <br>
+                <label for="Course">Course</label>
+                 <select id="Course" required>
+                    <option value="">--Choose your course--</option>
+
+                    <option>Bachelor of Science in Information and Technology</option>
+
+                    <option>Bachelor of Science in Computer Science</option>
+
+                    <option>Bachelor of Science in HRM</option>
+
+                    <option>Others</option>
+                 </select>
+                <br>
+                <label for="username">Username</label>
+                <input type="text" placeholder="Create a Username" required>
+                <br>
+                <label for="password">password</label>
+                <input type="password" placeholder="Create a password" required>
+                <br>
+                <label for="comment">Comment for recommendation</label>
+                <br>
+                <textarea id="comment">Comment here</textarea>
+                <br>
+                <button type="submit">sign up</button>
+
+                <button type="reset"> reset</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
